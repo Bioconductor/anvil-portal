@@ -48,10 +48,6 @@ Terra / AnVIL concepts
 
 - Public Workspaces.
 
-- Join the R / Bioconductor User Community.
-
-# Community Participation
-
-- Develop and Share R / Bioconductor Workspaces.
+- Paraticipate in the R / Bioconductor User Community.
 
 [Getting Started with AnVIL]: https://anvilproject.org/learn#getting-started-with-anvil
