@@ -28,7 +28,7 @@ Terra / AnVIL concepts for R / Bioconductor users
 
 - Where Is My Data? Local disks, DATA, and workspace buckets. A persistent disk contains data, scripts, packages, and output created by the user in the course of an analysis. Workspaces bring additional data. Tabular summaries of workspace data, e.g., descriptions of participants in the study the workspace encapsulates, are presented under the DATA element, while larger data produced during an analysis may be associated with the workspace 'bucket'. The [AnVIL][AnVIL-package] R / Bioconductor package provides a familiar interface for accessing these resources.
 
-- Sharing and Cloning; Billing and Cost Control. R / Bioconductor users are particularly  interested in reproducibility and sharing, and of course do not want to find themselves stuck with a surprising bill for their computing. ... The [AnVILPublish][] R / Bioconductor package provides a way to easily transform an R package or collection of Rmd files into an AnVIL workspace. Coupled with use of git or other version control system, this provides a good path to collaborative, reproducible, and shareable analysis.
+- Sharing and Cloning; Billing and Cost Control. R / Bioconductor users are particularly  interested in reproducibility and sharing, and of course do not want to find themselves stuck with a surprising bill for their computing. ... The [AnVILPublish][] R / Bioconductor package provides a way to easily transform an R package or collection of Rmd files into an AnVIL workspace. Coupled with use of git or other version control system, this provides a good path to collaborative, reproducible, and sharable analysis.
 
 ## Workflows
 
@@ -36,11 +36,13 @@ Terra / AnVIL concepts for R / Bioconductor users
 
 - A Bulk RNASeq Differential Expression Workflow.
 
-# R / Bioconductor Workspaces
+## R / Bioconductor Resources
 
 - Public Workspaces.
 
 - Participate in the R / Bioconductor Community.
+
+- Producing customized runtimes.
 
 [Getting Started with AnVIL]: https://anvilproject.org/learn#getting-started-with-anvil
 [AnVIL-package]: https://bioconductor.org/packages/AnVIL
