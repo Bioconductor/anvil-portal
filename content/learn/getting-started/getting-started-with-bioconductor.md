@@ -18,12 +18,18 @@ The plan is for the lead sentence of each bullet to lead to a short video descri
 
 ## R / Bioconductor with RStudio or Jupyter
 
-Getting started
+QUICK-START
+
+1. After signing in following [Getting Started with AnVIL][] instructions, at the top right of the screen click on "Cloud Environment" and click "Customize".
+2. Under "Application Configuration" choose a community-maintained RStudio environment, "RStudio". Choose the number of CPUs and persistent disk size appropriate to your needs. CPUs can be changed at any time, and disk size can be increased but not decreased. If you're unable to do this, it's because you aren't connected to a billing account or workspace that covers compute costs. Click "Create". 
+3. You should then see an R icon in the top-right hand corner, which starts RStudio in your browser. You won't have to repeat step 2 next time unless you want to change your compute resources. Terra will pause the computing environment automatically after a period of inactivity to avoid unnecessary costs. Your work will remain saved on your persistent disk when the computing environment is suspended.
+
+More on getting started
 
 - [The RStudio runtime][RStudio] provides a familiar cloud-based environment for using R / Bioconductor.
 - Access R / Bioconductor through Jupyter notebooks running an R 'kernel'.
 
-[RStudio]: https://terra.bio/try-rstudio-in-terra/
+[RStudio]: https://terra.bio/try-rstudio-in-terra/ 
 
 Terra / AnVIL concepts for R / Bioconductor users
 
