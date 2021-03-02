@@ -20,7 +20,9 @@ The plan is for the lead sentence of each bullet to lead to a short video descri
 
 Getting started
 
-- Selecting a Runtime. Learn how to use AnVIL with RStudio, or through Jupyter notebooks running an R 'kernel'.
+- Selecting a Runtime. Learn how to use [AnVIL with RStudio][RStudio], or through Jupyter notebooks running an R 'kernel'.
+
+[RStudio]: https://terra.bio/try-rstudio-in-terra/
 
 Terra / AnVIL concepts for R / Bioconductor users
 
