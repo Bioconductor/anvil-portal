@@ -20,7 +20,7 @@ The plan is for the lead sentence of each bullet to lead to a short video descri
 
 Getting started
 
-- Use an [RStudio][] runtime for a familiar cloud-based environment for data science.
+- [The RStudio runtime][RStudio] provides a familiar cloud-based environment for using R / Bioconductor.
 - Access R / Bioconductor through Jupyter notebooks running an R 'kernel'.
 
 [RStudio]: https://terra.bio/try-rstudio-in-terra/
