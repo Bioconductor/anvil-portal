@@ -36,11 +36,15 @@ Local persistent disks, DATA, and workspace buckets - A persistent disk contains
 
 Tabular summaries of workspace data, e.g., descriptions of participants in the study the workspace encapsulates, are presented under the DATA element, while larger data produced during an analysis may be associated with the workspace 'bucket'.
 
-The [AnVIL package](https://bioconductor.org/packages/AnVIL) R / Bioconductor package provides a familiar interface for accessing these resources.
+The [AnVIL](https://bioconductor.org/packages/AnVIL) and [AnVILGCP](https://bioconductor.org/packages/AnVILGCP) R / Bioconductor packages provide programmatic interfaces for accessing and modifying these resources.
+
+##### Data Repository Service (DRS) Universal Resource Identifier (URI) Resolution
+
+The [AnVILGCP package](https://bioconductor.org/packages/AnVILGCP) has facilities to bring data with a DRS URI into the workspace bucket (via Google Cloud Storage). By leveraging the DRS Hub API, the AnVILGCP::drs_hub function can bring multiple DRS URIs to the workspace storage location.
 
 ## Techniques for effective use of R / Bioconductor
 
-- **Fast package installation** - Cloud-based R / Bioconductor provides three major advantages during package installation: a pre-configured system supporting most CRAN and Bioconductor packages; fast retrieval of packages from cloud-based repositories; and very fast installation of 'binary' packages that do not require source code compilation. Use the AnVIL::install() function to gain all three benefits.
+- **Fast package installation** - Cloud-based R / Bioconductor provides three major advantages during package installation: a pre-configured system supporting most CRAN and Bioconductor packages; fast retrieval of packages from cloud-based repositories; and very fast installation of 'binary' packages that do not require source code compilation. Use the BiocManager::install() function to gain all three benefits.
 - **Tools for assessing cost** - The [AnVILBilling package](https://bioconductor.org/packages/AnVILBilling) provides R / Bioconductor tools for exploring the cost of AnVIL-based computation. This complements other AnVIL facilities for assessing cost.
 - **Using best practices for sharing reproducible AnVIL resources** - Start by encapsulating your contribution in an R package, with fully documented functions and vignettes for describing use. Manage the source code of your package in Git or other version control system. Then use [AnVILPublish](https://bioconductor.org/packages/AnVILPublish) to make your package content available as an AnVIL workspace for sharing and cloud-based computation.
 
